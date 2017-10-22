@@ -1,0 +1,30 @@
+body{
+  font-family: sans-serif;
+}
+ul{
+  /*list-style para quitar las viñetas*/
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: #2e2e2a;
+    /*line-height para ampliar el alto de la linea*/
+  line-height: 35px;
+  overflow: auto;
+}
+li{
+  width: 100px;
+  /*Para que se comporte como una etiqueta inline*/
+  display: inline-block;
+  text-align: center;
+  float: left;
+}
+a{
+  /*text-decoration para borrar la linea del link*/
+  text-decoration: none;
+  display: block;
+  color: white;
+}
+a:hover{
+  background: #f9a91a;
+  color: #000;
+}
