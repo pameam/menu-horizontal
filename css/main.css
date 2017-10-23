@@ -2,8 +2,9 @@ body{
   font-family: sans-serif;
 }
 ul{
-  /*list-style para quitar las viñetas*/
+  /*list-style para quitar las viñetas de una lista*/
   list-style: none;
+    /*usamos un padding y margin 0 para que la lista ocupe el espacio dejado de las viñetas*/
   padding: 0;
   margin: 0;
   background-color: #2e2e2a;
@@ -24,6 +25,7 @@ a{
   display: block;
   color: white;
 }
+  /* usamos hover para poner efecto al pasar el mouse*/
 a:hover{
   background: #f9a91a;
   color: #000;
